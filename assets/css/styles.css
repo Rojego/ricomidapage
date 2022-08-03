@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+.cab {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+nav{
+    background-color: #373A3C;
+}
+
+nav .navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cabecera p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cabecera button {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.carousel-item img {
+    padding: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    bottom: -25px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}    
+
+.rec p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rec b {
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.artic h3 {
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.artic p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.news h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.news p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.news span {
+    font-family: 'Lobster', sans-serif;
+}
+
+footer a { 
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .text-buttons {
+        text-align: center;
+    }
+}
+
